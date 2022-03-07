@@ -4,7 +4,7 @@ import '../../models/authentication_detail.dart';
 import '../domain/authentication_firebase_provider.dart';
 import '../domain/google_sign_in_provider.dart';
 
-class AuthenticationRepository {
+class AuthenticationRepository  { 
   final AuthenticationFirebaseProvider _authenticationFirebaseProvider;
   final GoogleSignInProvider _googleSignInProvider;
   AuthenticationRepository(
